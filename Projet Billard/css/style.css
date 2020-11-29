@@ -1,0 +1,166 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+
+h1{
+    font-size:55px;
+    font-family: 'Gugi', cursive;
+    margin-top: 200px;
+    margin-left: 143px;
+}
+
+h2{
+    font-size:45px;
+    font-family: 'Open Sans', sans-serif;
+    margin-left:20px;
+    
+}
+
+h3{
+    font-size:30px;
+    text-align:center;
+    margin-top:100px;
+    margin-bottom:30px;
+}
+
+p{
+    line-height:20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+li{
+    font-size:25px;
+}
+
+a{
+    text-decoration: none;
+    color:darkblue;
+    font-weight:bold;
+}
+
+/*HEADER*/
+
+#main{
+    position:relative;
+    display: flex;
+    width:1207px;
+    height:473px;
+}
+    
+.right{
+      width:610px;
+    }
+
+.left{
+        width:562px;
+        height:549px;
+        
+
+    }
+
+
+img{
+    /*margin-left:20px;*/
+    position:absolute;
+}
+
+
+#nav-bar a{
+    color:darkblue;
+}
+
+
+
+
+/*presentation*/
+
+
+p{
+    margin:20px 40px;
+    text-align:justify;
+}
+
+.links{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    border-radius:30px;
+    margin:40px 20px;
+    padding:10px 20px;
+    background-color:darkblue;
+}
+
+a{
+    color:white;
+}
+
+/*Parcours*/
+
+
+
+
+/*Stages*/
+.center{
+    display:flex;
+    justify-content:center;
+}
+
+.container{
+    display:flex;
+    justify-content:center;
+    width: 320px;
+    background-color: beige;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.content{
+    width: 300px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+#map{
+    display:flex;
+    justify-content:center;
+    margin:40px;
+}
+
+
+
+/*Footer*/
+.footer{
+    background-color:#303030;
+
+}
+
+.footer h3{
+    padding-top: 20px;
+    color: white;
+}
+
+
+
+.contact{
+    display:flex;
+    justify-content:center;
+}
+
+.contact button p
+{color:white;
+font-weight:bold;
+border-radius:10px;
+
+}
+
+
